@@ -1,0 +1,9 @@
+please check that 
+
+i make in this assigment 5 functions and implement it.
+first===> add function to get the data from user 
+second ===> cal_gpa function and calculate gpa based on just the grade like A,B,C,..  
+third ====> cal_gpa_by_points which calculate the gpa based the points based on the final exam like 85,90,60,...
+clear function===> if i want to reset the system 
+
+u can scroll to see input type for points 

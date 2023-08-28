@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 130vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(233, 179, 175), rgb(8, 14, 92));
+
+}
+
+.calculator-box h1 {
+    text-align: center;
+    color: rgb(8, 14, 92);
+    text-shadow: 1px 1px whitesmoke;
+
+}
+
+#calc-gpa-points {
+    width: 70px;
+}
+
+.calculator-box p {
+    text-align: center;
+    color: rgb(8, 14, 92);
+    text-shadow: 1px 1px whitesmoke;
+    margin: 10px 10px;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 210px;
+    margin: 25px;
+
+}
+
+.col2 input {
+    height: 35px;
+    width: 265px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    color: #eee;
+    background-color: rgb(8, 14, 92);
+    box-shadow: 1px 1px #eee;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.col2 select {
+    height: 35px;
+    width: 265px;
+    margin-left: -20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    color: #eee;
+    background-color: rgb(8, 14, 92);
+    box-shadow: 1px 1px #eee;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #eee;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #eee;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #eee;
+}
+
+
+.display-none {
+    display: none;
+}
+
+tbody td {
+    text-transform: uppercase;
+}
+
+.col-add {
+    position: relative;
+    left: 600px;
+
+}
+
+.col-add .btn {
+    width: 50px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: rgb(8, 14, 92);
+    color: #eee;
+    border-radius: 25px;
+    box-shadow: 1.5px 1.5px #eee;
+
+}
+
+table {
+    margin-top: 30px;
+    border: 1px dotted;
+    padding: 1.5px;
+    width: 300px;
+}
+
+th,
+td {
+    border: 1.5px dotted;
+    height: 30px;
+    text-shadow: 1px 1px #eee;
+}
+
+.dynamic-table {
+    margin-left: 500px;
+    color: rgb(8, 14, 92);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+
+}
+
+.row .col_2,
+.col_22 {
+    position: relative;
+    top: 130px;
+    bottom: 250px;
+    left: 510px;
+
+}
+
+
+.btn {
+    width: 60px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: rgb(8, 14, 92);
+    color: #eee;
+    border-radius: 25px;
+    box-shadow: 1.5px 1.5px #eee;
+}
+
+#calc-gpa {
+    padding: 5px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> GPA CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator-box">
+        <h1>CGPA CALCULATOR</h1>
+        <p>
+            This CGPA Calculator is based on the cairo University grading
+            system.
+        </p>
+        <div class="form_row">
+            <div class=" list">
+                <div class="col2">
+                    <input id="course-code" class="form-control" type="text" placeholder="course">
+
+                </div>
+                <div class="col2">
+                    <input id="unithour" class="form-control" type="number" placeholder="unithour">
+                </div>
+                <div class="col2">
+                    <select class="form-control" id="grade">
+                        <option value=""> please input your Grade</option>
+                        <option value="4">A</option>
+                        <option value="3">B</option>
+                        <option value="2">C</option>
+                        <option value="1">D</option>
+                        <option value="0">F</option>
+
+                    </select>
+
+                </div>
+                <div class="col2">
+                    <input id="points" class="form-control" type="text" placeholder="points">
+                </div>
+            </div>
+            <div class="col-add">
+
+                <input class="btn btn-primary" type="button" id="add" value="Add">
+            </div>
+        </div>
+        <table id="table" class="dynamic-table">
+            <thead>
+                <tr>
+                    <th> Course code</th>
+                    <th> Unit hour</th>
+                    <th> Grade</th>
+                    <th> Grade By Points</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+            <tfoot id="tfoot">
+
+            </tfoot>
+        </table>
+        <div class="row">
+            <div class="col_2">
+                <input class="btn btn-success display-none" type="button" id="calc-gpa" value="calGPA">
+            </div>
+            <div class="col_2">
+                <input class="btn btn-success display-none" type="button" id="calc-gpa-points" value="Gpapoints">
+            </div>
+            <div class="col_22">
+                <input class="btn btn-warning display-none" type="button" id="clear" value="clear">
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+
+
+</html>
